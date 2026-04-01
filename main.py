@@ -1136,12 +1136,12 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:
-                cc = f'╔══════[ ༺⚡༻ 𝑴𝒐𝒅𝒂𝒔𝒔𝒊𝒓 ༺⚡༻]══════╗\n╭┈✰┈┈┈╮\n{str(count).zfill(3)}\n╰┈┈┈✰┈╯\n\n**[🎥] Vɪᴅᴇᴏ Tɪᴛʟᴇ ➲ ** `{name1}\n├── Exᴛᴇɴꜱɪᴏɴ ➲ @Divyanshshukla7 💝\n├── Resolution [{res}p] @Divyanshshukla7mkv`\n\n<blockquote><b>🧿 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘 ➲</b> {b_name}</blockquote>\n\n**💎 Exᴛʀᴀᴄᴛᴇᴅ Bʏ**\n\n╔.★. .═════════════╗\n\n 𓇼{CR}𓇼\n\n╚═════════════. .★.╝\n\n<blockquote>『────⟡{CR}⟡────』</blockquote>\n\n╔════════════════════╗            [༺⚡༻ 𝑫𝒊𝒗𝒚𝒂𝒏𝒔𝒉 𝒔𝒉𝒖𝒌𝒍𝒂 ༺⚡༻ 🤭🤫](https://t.me/Divyanshshukla)╚════════════════════╝'
-                cc1 = f'╔══════[ 𝑴𝒐𝒅𝒂𝒔𝒔𝒊𝒓 ]══════╗\n╭┈✰┈┈┈╮\n {str(count).zfill(3)}\n╰┈┈┈✰┈╯\n\n**📁 𝗙𝗜𝗟𝗘 𝗧𝗜𝗧𝗟𝗘  ➬** `{name1}\n├── Exᴛᴇɴꜱɪᴏɴ ➲ @Divyanshshukla7 💝\n├── Resolution -@Divyanshshukla7.pdf`\n\n<blockquote><b>🧿 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘 ➲</b> {b_name}</blockquote>\n\n**💎 Exᴛʀᴀᴄᴛᴇᴅ Bʏ**\n\n╔.★. .═════════════╗\n\n 𓇼{CR}𓇼\n\n╚═════════════. .★.╝\n\n<blockquote>『────⟡{CR}⟡────』</blockquote>\n\n╔════════════════════╗            [༺⚡༻ 𝑫𝒊𝒗𝒚𝒂𝒏𝒔𝒉 𝒔𝒉𝒖𝒌𝒍𝒂 ༺⚡༻ 🤭🤫](https://t.me/Divyanshshukla7)╚════════════════════╝'
-                cczip = f'\n╭┈✰┈┈┈╮\n {str(count).zfill(3)}\n╰┈┈┈✰┈╯\n\n**Zip Title :** `{name1}\n├── Exᴛᴇɴꜱɪᴏɴ ➲ Divyanshshukla 💝\n├── Resolution.zip`\n\n<blockquote><b>🧿 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘 ➲</b> {b_name}</blockquote>\n\n**💎 Exᴛʀᴀᴄᴛᴇᴅ Bʏ**\n\n╔.★. .═════════════╗\n\n 𓇼{CR}𓇼\n\n╚═════════════. .★.╝\n\n<blockquote>『────⟡{CR}⟡────』</blockquote>' 
-                ccimg = f'\n╭┈✰┈┈┈╮\n {str(count).zfill(3)}\n╰┈┈┈✰┈╯\n\n**Img Title :** `{name1}\n├── Exᴛᴇɴꜱɪᴏɴ ➲ @Divyanshshukla7 💝\n├── Resolution.jpg`\n\n<blockquote><b>🧿 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘 ➲</b> {b_name}</blockquote>\n\n**💎 Exᴛʀᴀᴄᴛᴇᴅ Bʏ**\n\n╔.★. .═════════════╗\n\n 𓇼{CR}𓇼\n\n╚═════════════. .★.╝\n\n<blockquote>『────⟡{CR}⟡────』</blockquote>'
-                ccm = f'\n╭┈✰┈┈┈╮\n {str(count).zfill(3)}\n╰┈┈┈✰┈╯\n\n**Audio Title :** `{name1}\n├── Exᴛᴇɴꜱɪᴏɴ ➲ @Divyanshshukla7💝\n├── Resolution.mp3`\n\n<blockquote><b>🧿 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘 ➲</b> {b_name}</blockquote>\n\n**💎 Exᴛʀᴀᴄᴛᴇᴅ Bʏ**\n\n╔.★. .═════════════╗\n\n 𓇼{CR}𓇼\n\n╚═════════════. .★.╝\n\n<blockquote>『────⟡{CR}⟡────』</blockquote>'
-                cchtml = f'\n╭┈✰┈┈┈╮\n {str(count).zfill(3)}\n╰┈┈┈✰┈╯\n\n**Html Title :** `{name1}\n├── Exᴛᴇɴꜱɪᴏɴ ➲ @Divyanshshukla7 💝\n├── Resolution.html`\n\n<blockquote><b>🧿 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘 ➲</b> {b_name}</blockquote>\n\n**💎 Exᴛʀᴀᴄᴛᴇᴅ Bʏ**\n\n╔.★. .═════════════╗\n\n 𓇼{CR}𓇼\n\n╚═════════════. .★.╝\n\n<blockquote>『────⟡{CR}⟡────』</blockquote>'
+                cc = f'╔══════[ ༺⚡༻ 𝑴𝒐𝒅𝒂𝒔𝒔𝒊𝒓 ༺⚡༻ ]══════╗\n╭┈✰┈┈┈╮\n{str(count).zfill(3)}\n╰┈┈┈✰┈╯\n\n**〘🎥〙 Vɪᴅᴇᴏ Tɪᴛʟᴇ ➲ ** `{name1}\n├── Exᴛᴇɴꜱɪᴏɴ ➲ @Divyanshshukla7 💝\n├── Resolution [{res}p] @Divyanshshukla7mkv`\n\n<blockquote><b>📚 Bᴀᴛᴄʜ Nᴀᴍᴇ ➲</b> {b_name}</blockquote>\n\n**💎 Exᴛʀᴀᴄᴛᴇᴅ Bʏ**\n\n╔.★. .═════════════╗\n\n 𓇼{CR}𓇼\n\n╚═════════════. .★.╝\n\n<blockquote>『────⟡{CR}⟡────』</blockquote>\n\n╔════════════════════╗            [༺⚡༻ 𝑴𝒐𝒅𝒂𝒔𝒔𝒊𝒓 ༺⚡༻ 🤭🤫](https://t.me/)╚════════════════════╝'
+                cc1 = f'╔══════[ ༺⚡༻ 𝑴𝒐𝒅𝒂𝒔𝒔𝒊𝒓 ༺⚡༻ ]══════╗\n╭┈✰┈┈┈╮\n {str(count).zfill(3)}\n╰┈┈┈✰┈╯\n\n**〘📁〙 Fɪʟᴇ Tɪᴛʟᴇ ➲ ** `{name1}\n├── Exᴛᴇɴꜱɪᴏɴ ➲ Sadiya_Nz 💝\n├── Resolution -@Divyanshshukla7.pdf`\n\n<blockquote><b>📚 Bᴀᴛᴄʜ Nᴀᴍᴇ ➲</b> {b_name}</blockquote>\n\n**💎 Exᴛʀᴀᴄᴛᴇᴅ Bʏ**\n\n╔.★. .═════════════╗\n\n 𓇼{CR}𓇼\n\n╚═════════════. .★.╝\n\n<blockquote>『────⟡{CR}⟡────』</blockquote>\n\n╔════════════════════╗            [༺⚡༻ 𝑴𝒐𝒅𝒂𝒔𝒔𝒊𝒓 ༺⚡༻ 🤭🤫](https://t.me/)╚════════════════════╝'
+                cczip = f'\n╭┈✰┈┈┈╮\n {str(count).zfill(3)}\n╰┈┈┈✰┈╯\n\n**Zip Title :** `{name1}\n├── Exᴛᴇɴꜱɪᴏɴ ➲ Sadiya_Nz 💝\n├── Rᴇꜱᴏʟᴜᴛɪᴏɴ.zip`\n\n<blockquote><b>📚 Bᴀᴛᴄʜ Nᴀᴍᴇ ➲</b> {b_name}</blockquote>\n\n**💎 Exᴛʀᴀᴄᴛᴇᴅ Bʏ**\n\n╔.★. .═════════════╗\n\n 𓇼{CR}𓇼\n\n╚═════════════. .★.╝\n\n<blockquote>『────⟡{CR}⟡────』</blockquote>' 
+                ccimg = f'\n╭┈✰┈┈┈╮\n {str(count).zfill(3)}\n╰┈┈┈✰┈╯\n\n**Img Title :** `{name1}\n├── Exᴛᴇɴꜱɪᴏɴ ➲ Sadiya_Nz 💝\n├── Rᴇꜱᴏʟᴜᴛɪᴏɴ.jpg`\n\n<blockquote><b>📚 Bᴀᴛᴄʜ Nᴀᴍᴇ ➲</b> {b_name}</blockquote>\n\n**💎 Exᴛʀᴀᴄᴛᴇᴅ Bʏ**\n\n╔.★. .═════════════╗\n\n 𓇼{CR}𓇼\n\n╚═════════════. .★.╝\n\n<blockquote>『────⟡{CR}⟡────』</blockquote>'
+                ccm = f'\n╭┈✰┈┈┈╮\n {str(count).zfill(3)}\n╰┈┈┈✰┈╯\n\n**Audio Title :** `{name1}\n├── Exᴛᴇɴꜱɪᴏɴ ➲ Sadiya_Nz 💝\n├── Rᴇꜱᴏʟᴜᴛɪᴏɴ.mp3`\n\n<blockquote><b>📚 Bᴀᴛᴄʜ Nᴀᴍᴇ ➲</b> {b_name}</blockquote>\n\n**💎 Exᴛʀᴀᴄᴛᴇᴅ Bʏ**\n\n╔.★. .═════════════╗\n\n 𓇼{CR}𓇼\n\n╚═════════════. .★.╝\n\n<blockquote>『────⟡{CR}⟡────』</blockquote>'
+                cchtml = f'\n╭┈✰┈┈┈╮\n {str(count).zfill(3)}\n╰┈┈┈✰┈╯\n\n**Html Title :** `{name1}\n├── Exᴛᴇɴꜱɪᴏɴ ➲ Sadiya_Nz 💝\n├── Rᴇꜱᴏʟᴜᴛɪᴏɴ.html`\n\n<blockquote><b>📚 Bᴀᴛᴄʜ Nᴀᴍᴇ ➲</b> {b_name}</blockquote>\n\n**💎 Exᴛʀᴀᴄᴛᴇᴅ Bʏ**\n\n╔.★. .═════════════╗\n\n 𓇼{CR}𓇼\n\n╚═════════════. .★.╝\n\n<blockquote>『────⟡{CR}⟡────』</blockquote>'
                   
                 if "drive" in url:
                     try:
@@ -1439,11 +1439,11 @@ async def text_handler(bot: Client, m: Message):
                 url   = response.json()['url']
 
             elif "childId" in url and "parentId" in url:
-                url = f"https://anonymouspwplayer-554b25895c1a.herokuapp.com/pw?url={url}&token={pw_token}"
+                url = f"https://anonymouspwplayer-907e62cf4891.herokuapp.com/pw?url={url}&token={pw_token}"
                            
             elif "d1d34p8vz63oiq" in url or "sec1.pw.live" in url:
                 vid_id =  url.split('/')[-2]
-                url = f"https://anonymouspwplayer-554b25895c1a.herokuapp.com/pw?url={url}&token={pw_token}"
+                url = f"https://anonymouspwplayer-907e62cf4891.herokuapp.com/pw?url={url}&token={pw_token}"
                 
             if ".pdf*" in url:
                 url = f"https://dragoapi.vercel.app/pdf/{url}"
